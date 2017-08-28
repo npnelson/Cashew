@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cashew", "src\Cashew\Cashew.csproj", "{84C759D6-9EE5-4939-B585-D9CC64BAF6E0}"
 EndProject
@@ -11,9 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2429ECE9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cashew.Tests", "tests\Cashew.Tests\Cashew.Tests.csproj", "{B0916BC9-9BA4-4294-9FF0-8273F0AAE86C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cashew.Adapters.CacheManager", "src\Cashew.Adapters.CacheManager\Cashew.Adapters.CacheManager.csproj", "{EA2304CF-4B41-456E-9924-5916122F6515}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cashew.Adapters.CacheManager", "src\Cashew.Adapters.CacheManager\Cashew.Adapters.CacheManager.csproj", "{EA2304CF-4B41-456E-9924-5916122F6515}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cashew.Adapters.CacheManager.Tests", "tests\Cashew.Adapters.CacheManager.Tests\Cashew.Adapters.CacheManager.Tests.csproj", "{591D9FFF-B927-4BDB-BC42-93489C60215A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{354C6F97-922D-4045-8BBC-82E48FE37D85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "samples\WebAPI\WebAPI.csproj", "{5191934D-6006-497E-ABCF-E0372DEF6BF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTest", "samples\MVCTest\MVCTest.csproj", "{260E2428-F213-413F-A6BC-13B0C89309DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +43,14 @@ Global
 		{591D9FFF-B927-4BDB-BC42-93489C60215A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{591D9FFF-B927-4BDB-BC42-93489C60215A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{591D9FFF-B927-4BDB-BC42-93489C60215A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5191934D-6006-497E-ABCF-E0372DEF6BF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5191934D-6006-497E-ABCF-E0372DEF6BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5191934D-6006-497E-ABCF-E0372DEF6BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5191934D-6006-497E-ABCF-E0372DEF6BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{260E2428-F213-413F-A6BC-13B0C89309DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{260E2428-F213-413F-A6BC-13B0C89309DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{260E2428-F213-413F-A6BC-13B0C89309DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{260E2428-F213-413F-A6BC-13B0C89309DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +60,10 @@ Global
 		{B0916BC9-9BA4-4294-9FF0-8273F0AAE86C} = {2429ECE9-1952-4BF1-B723-9F065F89F92A}
 		{EA2304CF-4B41-456E-9924-5916122F6515} = {856A2BB6-924E-46FA-BFC0-548268CC985D}
 		{591D9FFF-B927-4BDB-BC42-93489C60215A} = {2429ECE9-1952-4BF1-B723-9F065F89F92A}
+		{5191934D-6006-497E-ABCF-E0372DEF6BF1} = {354C6F97-922D-4045-8BBC-82E48FE37D85}
+		{260E2428-F213-413F-A6BC-13B0C89309DD} = {354C6F97-922D-4045-8BBC-82E48FE37D85}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAAB86F0-B476-41C9-9DB1-AF8E818CB7AA}
 	EndGlobalSection
 EndGlobal
